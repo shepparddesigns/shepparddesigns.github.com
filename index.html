@@ -19,9 +19,10 @@
   <meta name="viewport" content="width=device-width">
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
-
-  <link rel="stylesheet" href="css/style.css">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -34,43 +35,62 @@
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-  <header>
-	<h1><a  href="/">Sheppard Designs</a></h1>
-	<p>07581336048 | <a href="mailto:joe@shepparddesigns.co.uk">joe@shepparddesigns.co.uk</a></p>
-  </header>
-  <div role="main">
+  <div class="container">
+    <div class="row">
+      <div span="span12"> 
+        <header>
+        	<h1><a  href="/">Sheppard Designs</a></h1>
+        	<p>07581336048 | <a href="mailto:joe@shepparddesigns.co.uk">joe@shepparddesigns.co.uk</a></p>
+        </header>
+      </div>
+    </div>
 
+    <div class="row">
+      <div class="span12">
+        <section id="about">
+          <h1>About</h1>
+          <p>Hi! Welcome to my site. I am a Bristol based freelance designer specializing in bespoke wooden constructions. I have some pictures of my work below. My main services are above but if you're thinking out of the box then I'm sure we get create something new. Feel free to contact me for a chat or we can discuss your idea over a cup of tea.</p>
+        </section>
+      </div>
+    </div>
 
-	<section id="services">
-		<h1>Services</h1>
-		<div><img src="img/joe.jpg" alt="Joe's picture'" /></div>
-		<div>
-		  <ul>
-		    <li>Carpentry & Joinery</li>
-		    <li>Reclaimed Timber</li>
-		    <li>Bespoke Designs</li>
-		    <li>Tailormade Benches</li>
-		    <li>Furniture</li>
-		    <li>Cabinet Making</li>
-		    <li>Sustainable</li>
-		  </ul>
-		</div>
-	</section>
+    <div class="row">
+        <section id="services">
+          <h1>Services</h1>
+          <div class="span6"> 
+            <img src="img/joe.jpg" alt="Joe's picture'" />
+          </div>
+          <div class="span4">
+      		  <ul>
+      		    <li>Carpentry & Joinery</li>
+      		    <li>Reclaimed Timber</li>
+      		    <li>Bespoke Designs</li>
+      		    <li>Tailormade Benches</li>
+      		    <li>Furniture</li>
+      		    <li>Cabinet Making</li>
+      		    <li>Sustainable</li>
+      		  </ul>
+          </div>
+      	</section>
+    </div>
 
-	<section id="about">
-		<h1>About</h1>
-		<p>Hi! Welcome to my site. I am a Bristol based freelance designer specializing in bespoke wooden constructions. I have some pictures of my work below. My main services are above but if you're thinking out of the box then I'm sure we get create something new. Feel free to contact me for a chat or we can discuss your idea over a cup of tea.</p>
-	</section>
+    <div class="row">
+      <div class="span12">
+        <section id="portfolio">
+          <h1>Portfolio</h1>
+          <object width="700" height="525"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2F78702588%40N05%2Fshow%2F&page_show_back_url=%2Fphotos%2F78702588%40N05%2F&user_id=78702588@N05&jump_to="></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=109615"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=109615" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2F78702588%40N05%2Fshow%2F&page_show_back_url=%2Fphotos%2F78702588%40N05%2F&user_id=78702588@N05&jump_to=" width="700" height="525"></embed></object>
+        </section>
+      </div>
+    </div>
 
-	<section id="portfolio">
-		<h1>Portfolio</h1>
-		<object width="700" height="525"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2F78702588%40N05%2Fshow%2F&page_show_back_url=%2Fphotos%2F78702588%40N05%2F&user_id=78702588@N05&jump_to="></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=109615"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=109615" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2F78702588%40N05%2Fshow%2F&page_show_back_url=%2Fphotos%2F78702588%40N05%2F&user_id=78702588@N05&jump_to=" width="700" height="525"></embed></object>
-	</section>
-
+    <div class="row">
+      <div class="span12">
+        <footer>
+        	    <p>© Sheppard Designs 2012 | <a href="http://busyanimal.com" rel="nofollow">Website made by Busyanimal.com</a></p>
+        </footer>
+      </div>
+    </div>
   </div>
-  <footer>
-  	    <p>© Sheppard Designs 2012 | <a href="http://busyanimal.com" rel="nofollow">Website made by Busyanimal.com</a></p>
-  </footer>
 
 
   <!-- JavaScript at the bottom for fast page loading -->
